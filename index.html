@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAP Shopping Centre Digital Sign</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>AMAP Shopping Centre</h1>
+    </header>
+    <main>
+        <nav id="main-menu">
+            <button class="menu-btn" onclick="navigate('parking.html')">Parking</button>
+            <button class="menu-btn" onclick="navigate('banks.html')">Banks</button>
+            <button class="menu-btn" onclick="navigate('shopping.html')">Shopping</button>
+            <button class="menu-btn" onclick="navigate('food.html')">Food</button>
+            <button class="menu-btn" onclick="navigate('search.html')">Search</button>
+            <button class="menu-btn" onclick="navigate('offers.html')">Special Offers</button>
+            <button class="menu-btn" onclick="navigate('access.html')">Disabled Access</button>
+            <button class="menu-btn" onclick="navigate('info.html')">Centre Information</button>
+            <button class="menu-btn" onclick="navigate('help.html')">Help</button>
+        </nav>
+    </main>
+    <footer>
+        <button onclick="toggleLargeText()">Large Text Mode</button>
+        <button onclick="loadLanguage('en')">English</button>
+    </footer>
+</body>
+</html>

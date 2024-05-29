@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banks</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Banks</h1>
+    </header>
+    <main>
+        <nav id="banks-list">
+            <button class="item-btn" onclick="showDetails('bank1')">Bank 1</button>
+            <button class="item-btn" onclick="showDetails('bank2')">Bank 2</button>
+            <button class="item-btn" onclick="showDetails('bank3')">Bank 3</button>
+        </nav>
+        <div class="navigation-controls">
+            <button class="nav-btn" onclick="scrollUp()">Scroll Up</button>
+            <button class="nav-btn" onclick="scrollDown()">Scroll Down</button>
+            <button class="nav-btn" onclick="navigate('index.html')">Back to Main Menu</button>
+        </div>
+    </main>
+    <footer>
+        <button onclick="toggleLargeText()">Large Text Mode</button>
+        <button onclick="loadLanguage('en')">English</button>
+    </footer>
+</body>
+</html>
